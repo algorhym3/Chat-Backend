@@ -69,5 +69,6 @@ namespace Zeww.DAL
             return userChats.SelectMany(uc => uc.Select(u => u.ChatId));
 
         }
+
     }
 }
